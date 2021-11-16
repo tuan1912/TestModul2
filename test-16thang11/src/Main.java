@@ -30,7 +30,7 @@ public class Main {
                     Controller.showStaffByName();
                     System.out.println("Enter staff id you wanna change:");
                     int staffIdCase4 = Integer.parseInt(scanner.nextLine());
-                    Controller.changeInformation(staffIdCase4);
+                    Controller.changeInformationByStaffId(staffIdCase4);
                     break;
 
             }

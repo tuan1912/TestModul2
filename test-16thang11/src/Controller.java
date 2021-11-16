@@ -48,7 +48,7 @@ public class Controller {
     public static void showAllOfStaff(){
         for (Staff staff : arrayOfStaff ) System.out.println(staff.toString());
     }
-    public static void changeInformation(int staffId) {
+    public static void changeInformationByStaffId(int staffId) {
         int index = getIndexByStaffId(staffId);
         if (index > -1) {
             System.out.println("Enter name:");
